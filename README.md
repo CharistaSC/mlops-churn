@@ -6,16 +6,16 @@ This project is a machine learning pipeline to predict customer churn based on s
 
 ## 📁 Project Structure
 
-├── dataset/ # Cleaned datasets (e.g., both_serv.csv, only_int.csv)
-├── models/ # Trained models and logs
-│ ├── xgb/ # XGBoost-related models/logs
-│ └── adab/ # AdaBoost-related models/logs
-├── deployment/ # Docker-related files
-│ ├── app.py # FastAPI inference endpoint
-│ ├── Dockerfile
-│ └── requirements.txt
-├── client.py # Example script for calling the API
-└── README.md # Project documentation
+├── dataset/               # Cleaned datasets (e.g., both_serv.csv, only_int.csv)
+├── models/                # Trained models and logs
+│   ├── xgb/               # XGBoost-related models and logs
+│   └── adab/              # AdaBoost-related models and logs
+├── deployment/            # Docker-related files for API deployment
+│   ├── app.py             # FastAPI inference API
+│   ├── Dockerfile         # Docker image setup
+│   └── requirements.txt   # Python dependencies
+├── client.py              # Example script for calling the API
+└── README.md              # Project documentation
 
 ---
 
