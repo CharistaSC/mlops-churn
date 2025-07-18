@@ -1,0 +1,41 @@
+{
+    "timestamp": "2025-07-04T16:45:53.341183",
+    "model": "RandomForestClassifier",
+    "search_type": "grid_search",
+    "best_params": {
+        "class_weight": "balanced",
+        "max_depth": 3,
+        "max_features": "sqrt",
+        "min_samples_leaf": 2,
+        "min_samples_split": 5,
+        "n_estimators": 100
+    },
+    "roc_auc": 0.7903450410026304,
+    "classification_report": {
+        "0": {
+            "precision": 0.9601769911504425,
+            "recall": 0.7722419928825622,
+            "f1-score": 0.8560157790927021,
+            "support": 281.0
+        },
+        "1": {
+            "precision": 0.1794871794871795,
+            "recall": 0.6086956521739131,
+            "f1-score": 0.2772277227722772,
+            "support": 23.0
+        },
+        "accuracy": 0.7598684210526315,
+        "macro avg": {
+            "precision": 0.569832085318811,
+            "recall": 0.6904688225282376,
+            "f1-score": 0.5666217509324897,
+            "support": 304.0
+        },
+        "weighted avg": {
+            "precision": 0.9011116435574983,
+            "recall": 0.7598684210526315,
+            "f1-score": 0.8122258932526699,
+            "support": 304.0
+        }
+    }
+}

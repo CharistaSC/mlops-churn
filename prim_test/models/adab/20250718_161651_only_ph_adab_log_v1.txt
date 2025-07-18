@@ -1,0 +1,52 @@
+{
+    "timestamp": "2025-07-18T16:16:51.183710",
+    "model": "AdaBoost",
+    "params": {
+        "algorithm": "SAMME.R",
+        "base_estimator__ccp_alpha": 0.0,
+        "base_estimator__class_weight": "None",
+        "base_estimator__criterion": "gini",
+        "base_estimator__max_depth": 1,
+        "base_estimator__max_features": "None",
+        "base_estimator__max_leaf_nodes": "None",
+        "base_estimator__min_impurity_decrease": 0.0,
+        "base_estimator__min_samples_leaf": 1,
+        "base_estimator__min_samples_split": 2,
+        "base_estimator__min_weight_fraction_leaf": 0.0,
+        "base_estimator__random_state": 42,
+        "base_estimator__splitter": "best",
+        "base_estimator": "DecisionTreeClassifier(max_depth=1, random_state=42)",
+        "estimator": "None",
+        "learning_rate": 0.1,
+        "n_estimators": 10,
+        "random_state": 42
+    },
+    "roc_auc": 0.7928206715147763,
+    "classification_report": {
+        "0": {
+            "precision": 0.9243421052631579,
+            "recall": 1.0,
+            "f1-score": 0.9606837606837606,
+            "support": 281.0
+        },
+        "1": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 23.0
+        },
+        "accuracy": 0.9243421052631579,
+        "macro avg": {
+            "precision": 0.4621710526315789,
+            "recall": 0.5,
+            "f1-score": 0.4803418803418803,
+            "support": 304.0
+        },
+        "weighted avg": {
+            "precision": 0.8544083275623268,
+            "recall": 0.9243421052631579,
+            "f1-score": 0.888000449842555,
+            "support": 304.0
+        }
+    }
+}
