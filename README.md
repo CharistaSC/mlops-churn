@@ -4,8 +4,11 @@ This project is a machine learning pipeline to predict customer churn based on s
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
+The repository is organized as follows:
+
+📁 Project Structure
 ├── dataset/               # Cleaned datasets (e.g., both_serv.csv, only_int.csv)
 ├── models/                # Trained models and logs
 │   ├── xgb/               # XGBoost-related models and logs
@@ -16,6 +19,7 @@ This project is a machine learning pipeline to predict customer churn based on s
 │   └── requirements.txt   # Python dependencies
 ├── client.py              # Example script for calling the API
 └── README.md              # Project documentation
+
 
 ---
 
